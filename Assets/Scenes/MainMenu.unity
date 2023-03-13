@@ -402,7 +402,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 307007806}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1900725531}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: ExitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &307007806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -453,6 +465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbaab1299d8b76b4eb1b6a8e48be77da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameManeger: {fileID: 0}
   TextRus: {fileID: 1864943801}
   TextEng: {fileID: 296063504}
 --- !u!1 &480889925
@@ -816,6 +829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbaab1299d8b76b4eb1b6a8e48be77da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameManeger: {fileID: 0}
   TextRus: {fileID: 1035070205}
   TextEng: {fileID: 2025244677}
 --- !u!1 &625578125
@@ -1671,7 +1685,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1810995993}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1900725531}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: Resume_Game
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1810995993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1722,6 +1748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbaab1299d8b76b4eb1b6a8e48be77da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameManeger: {fileID: 0}
   TextRus: {fileID: 713271062}
   TextEng: {fileID: 499258588}
 --- !u!1 &1864943801
@@ -1816,6 +1843,7 @@ GameObject:
   - component: {fileID: 1900725528}
   - component: {fileID: 1900725527}
   - component: {fileID: 1900725530}
+  - component: {fileID: 1900725531}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1903,6 +1931,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameManeger: {fileID: 0}
+--- !u!114 &1900725531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900725526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 731efc9bf336eea47a2d138be07ba7b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2024670398
 GameObject:
   m_ObjectHideFlags: 0

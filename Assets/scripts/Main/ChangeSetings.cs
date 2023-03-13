@@ -14,15 +14,15 @@ public class ChangeSetings : MonoBehaviour
 
     public void SaveGame()
     {
-        PlayerPrefs.SetInt("language", GameManeger.language);
+        GameManeger.SaveGame();
     }
 
     public void changeRussian()
     {
-        GameManeger.language = 0;
+        GameManeger.changeRussian();
     }
     public void changeEnglish()
     {
-        GameManeger.language = 1;
+        GameManeger.changeEnglish();
     }
 }

@@ -9,14 +9,23 @@ public class GameManeger : MonoBehaviour
     public int NewGame;  //Нет сохранений - 0, есть сохранение - 1
     void Start()
     {
-        PlayerPrefs.GetInt("language");
+        if (PlayerPrefs.HasKey("language")) // Проверка на язык
+        {
+            language = PlayerPrefs.GetInt("language");
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SaveGame()
     {
-        
+        PlayerPrefs.SetInt("language", language);
     }
 
-
+    public void changeRussian()
+    {
+        language = 0; PlayerPrefs.SetInt("language", language);
+    }
+    public void changeEnglish()
+    {
+        language = 1; PlayerPrefs.SetInt("language", language);
+    }
 }
