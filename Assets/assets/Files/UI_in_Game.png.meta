@@ -104,7 +104,7 @@ TextureImporter:
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 48
+    textureFormat: 74
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -131,7 +131,7 @@ TextureImporter:
       name: UI_in_Game_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 970
         width: 16
         height: 28
@@ -152,7 +152,7 @@ TextureImporter:
       name: UI_in_Game_1
       rect:
         serializedVersion: 2
-        x: 17
+        x: 18
         y: 986
         width: 32
         height: 12
@@ -173,10 +173,10 @@ TextureImporter:
       name: UI_in_Game_2
       rect:
         serializedVersion: 2
-        x: 134
-        y: 973
-        width: 34
-        height: 19
+        x: 51
+        y: 969
+        width: 46
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +194,10 @@ TextureImporter:
       name: UI_in_Game_3
       rect:
         serializedVersion: 2
-        x: 17
-        y: 968
-        width: 15
-        height: 15
+        x: 100
+        y: 973
+        width: 34
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,10 +215,10 @@ TextureImporter:
       name: UI_in_Game_4
       rect:
         serializedVersion: 2
-        x: 50
-        y: 969
-        width: 46
-        height: 30
+        x: 135
+        y: 973
+        width: 34
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,10 +236,10 @@ TextureImporter:
       name: UI_in_Game_5
       rect:
         serializedVersion: 2
-        x: 99
-        y: 973
-        width: 34
-        height: 19
+        x: 171
+        y: 974
+        width: 17
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,10 +257,10 @@ TextureImporter:
       name: UI_in_Game_6
       rect:
         serializedVersion: 2
-        x: 170
-        y: 974
-        width: 16
-        height: 16
+        x: 192
+        y: 872
+        width: 176
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,12 +278,12 @@ TextureImporter:
       name: UI_in_Game_7
       rect:
         serializedVersion: 2
-        x: 192
-        y: 918
-        width: 100
-        height: 82
+        x: 0
+        y: 952
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -291,6 +291,279 @@ TextureImporter:
       bones: []
       spriteID: 9ff8e487b17aca14fbf93629b165e4a0
       internalID: 1644542046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_in_Game_8
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 968
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3bf9e65f45af3546bd8c30d84aef658
+      internalID: -894186453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_in_Game_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 999
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddec65c60eff4be4d9a2ad71400dbe37
+      internalID: -1267012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_in_Game_10
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 979
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6d2ec6dc2b69f439abe2605a3e9790
+      internalID: -1799762999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_in_Game_11
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 974
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bb6c2b26f37074088f16bca4dc57bf
+      internalID: 418625014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_in_Game_12
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 981
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63726d96f400ec54da9fb90876f01632
+      internalID: 533597623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_in_Game_13
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 962
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d28f9e5c3e58464d954bf0a4452035d
+      internalID: 1816986985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_in_Game_14
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 972
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab05b3512f998ce40b299bd5cf113fcb
+      internalID: 1192980108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_in_Game_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 984
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87480c684a0fe2c4fa1aa5a1a41161ca
+      internalID: 1243090701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_in_Game_16
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 952
+        width: 80
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52de26effc4da64cbb82e91b9d4fd5d
+      internalID: 1028838686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_in_Game_17
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 927
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f436f6923c6561c41bc763a678f5a15d
+      internalID: -338386886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_in_Game_18
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 932
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f7035b7486a0d41ad75047205f34e3
+      internalID: 1062200968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_in_Game_19
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 929
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e39fbdbaa5ff9343a35f40189682877
+      internalID: -690526528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_in_Game_20
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 935
+        width: 100
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283f985c636a63345af01ff448e78e2a
+      internalID: 2125885249
       vertices: []
       indices: 
       edges: []
@@ -307,13 +580,26 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       UI_in_Game_3: 903325044
+      UI_in_Game_18: 1062200968
       UI_in_Game_2: -1240473579
       UI_in_Game_7: 1644542046
+      UI_in_Game_15: 1243090701
+      UI_in_Game_8: -894186453
       UI_in_Game_1: -522084372
+      UI_in_Game_9: -1267012
+      UI_in_Game_13: 1816986985
       UI_in_Game_4: -695184892
       UI_in_Game_5: 536829422
+      UI_in_Game_16: 1028838686
+      UI_in_Game_12: 533597623
       UI_in_Game_6: -27044503
+      UI_in_Game_11: 418625014
+      UI_in_Game_14: 1192980108
+      UI_in_Game_19: -690526528
+      UI_in_Game_17: -338386886
+      UI_in_Game_20: 2125885249
       UI_in_Game_0: -840619690
+      UI_in_Game_10: -1799762999
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
