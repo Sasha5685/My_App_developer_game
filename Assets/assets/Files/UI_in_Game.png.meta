@@ -472,7 +472,7 @@ TextureImporter:
         width: 80
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -493,7 +493,7 @@ TextureImporter:
         width: 38
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -514,7 +514,7 @@ TextureImporter:
         width: 16
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -535,7 +535,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -556,7 +556,7 @@ TextureImporter:
         width: 100
         height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -564,6 +564,111 @@ TextureImporter:
       bones: []
       spriteID: 283f985c636a63345af01ff448e78e2a
       internalID: 2125885249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_in_Game_21
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 928
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9adddf80982ee47a61339623c39fad
+      internalID: 676361404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_in_Game_22
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 984
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b77dd1e621a03f4a99d1713dd708bfd
+      internalID: 1155855377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_in_Game_23
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 984
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443ee8ba0c9743d4997f4e1a8c77f82f
+      internalID: 272634833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_in_Game_24
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 864
+        width: 203
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be773c320ea54b41a422adb01b965cd
+      internalID: -74056786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_in_Game_25
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 966
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 0.5399895, y: 0.44006348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6bebf502041774ea52bfb97a7b3697
+      internalID: -975175687
       vertices: []
       indices: 
       edges: []
@@ -579,7 +684,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      UI_in_Game_23: 272634833
       UI_in_Game_3: 903325044
+      UI_in_Game_24: -74056786
       UI_in_Game_18: 1062200968
       UI_in_Game_2: -1240473579
       UI_in_Game_7: 1644542046
@@ -590,9 +697,12 @@ TextureImporter:
       UI_in_Game_13: 1816986985
       UI_in_Game_4: -695184892
       UI_in_Game_5: 536829422
+      UI_in_Game_22: 1155855377
       UI_in_Game_16: 1028838686
+      UI_in_Game_25: -975175687
       UI_in_Game_12: 533597623
       UI_in_Game_6: -27044503
+      UI_in_Game_21: 676361404
       UI_in_Game_11: 418625014
       UI_in_Game_14: 1192980108
       UI_in_Game_19: -690526528
