@@ -11,7 +11,13 @@ public class TaskBarGame : MonoBehaviour
     public Text DesignMText;
     public int Gameplay;
     public Text GameplayText;
+
+    public int ProchentCreateGameInt;
+    public Text ProchentCreateGame;
     public Animator anim;
+    public GameObject TaskBar;
+    public CreatingGameSistem CreatingGameSistem;
+
     void Start()
     {
 
@@ -24,7 +30,11 @@ public class TaskBarGame : MonoBehaviour
         DesignMText.text = Design.ToString();
         GameplayText.text = Gameplay.ToString();
         anim.SetBool("Vibration", true);
-
+        ProchentCreateGame.text = ProchentCreateGameInt +"%";
+        if(ProchentCreateGameInt >= 100)
+        {
+            CreatingGameSistem.StopGameCreate();
+        }
     }
     public void StopUpdateTaks()
     {
@@ -32,4 +42,14 @@ public class TaskBarGame : MonoBehaviour
         anim.SetBool("Vibration", false);
 
     }
+    public void SetActiveTaskBar()
+    {
+        TaskBar.SetActive(true);
+    }
+    public void SetDisActiveTaskBar()
+    {
+        TaskBar.SetActive(false);
+    }
+
+
 }

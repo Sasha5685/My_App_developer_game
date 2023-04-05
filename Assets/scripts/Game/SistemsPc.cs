@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class SistemsPc : MonoBehaviour
 {
     public TaskBarGame TaskBarGame;
+    public CreatingGameSistem CreatingGameSistem;
 
     public int TechnologyMin, TechnologyMax;
     public Text TechnologyMinText, TechnologyMaxText;
@@ -19,24 +20,31 @@ public class SistemsPc : MonoBehaviour
         UpdateGameSistem();
         StartCoroutine(Tick());
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     IEnumerator Tick()
     {
         while (true)
         {
-            TaskBarGame.Technology += Random.Range(TechnologyMin, TechnologyMax);
-            TaskBarGame.Design += Random.Range(DesignMin, DesignMax);
-            TaskBarGame.Gameplay += Random.Range(GameplayMin, GameplayMax);
-            TaskBarGame.UpdateTaks();
+            if (CreatingGameSistem.IsCreate == true)
+            {
+                TaskBarGame.Technology += Random.Range(TechnologyMin, TechnologyMax);
+                TaskBarGame.Design += Random.Range(DesignMin, DesignMax);
+                TaskBarGame.Gameplay += Random.Range(GameplayMin, GameplayMax);
+                if(CreatingGameSistem.ÑomplexityGameCreate == 1)
+                {
+                    TaskBarGame.ProchentCreateGameInt += 10;
+                }
+                TaskBarGame.UpdateTaks();
 
-            yield return new WaitForSeconds(1.2f);
-            TaskBarGame.StopUpdateTaks();
-            yield return new WaitForSeconds(5);
+
+                yield return new WaitForSeconds(1.2f);
+                TaskBarGame.StopUpdateTaks();
+                yield return new WaitForSeconds(5);
+
+
+            }
+            yield return new WaitForSeconds(1);
+
+
         }
 
 

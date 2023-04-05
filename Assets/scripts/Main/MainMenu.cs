@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
+    //Debug.Log("Ошибка - 1");
     public void ExitGame()
     {
         Application.Quit();

@@ -47,7 +47,7 @@ public class CameraController : MonoBehaviour, IBeginDragHandler, IDragHandler
                     CameraTransform.position += Vector3.up * speedCamera;
                 }
             }
-            if (CameraTransform.transform.position.x > -5)
+            if (CameraTransform.transform.position.y > -5)
             {
                 if (eventData.delta.y < 0)
                 {
